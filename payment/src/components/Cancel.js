@@ -8,7 +8,7 @@ class Cancel extends React.Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>cancel</title>
+          <title>payment cancelled</title>
         </Helmet>
       </div>
     );

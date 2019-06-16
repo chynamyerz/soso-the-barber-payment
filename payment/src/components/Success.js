@@ -8,7 +8,7 @@ class Success extends React.Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>success</title>
+          <title>payment completed</title>
         </Helmet>
       </div>
     );
