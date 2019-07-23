@@ -10,9 +10,9 @@ class App extends React.Component {
   componentDidMount() {
     this.interval = setInterval(async () => {
       this.setState({ time: Date.now() })
-      await api.login({email: "dummy@gmail.com", password:"dummy"})
-      console.log("let see dude")
-    }, 1800000)
+      const test = await api.galery()
+      console.log(Date().toString(), test.status)
+    }, 1500000)
   }
   componentWillUnmount() {
     clearInterval(this.interval);

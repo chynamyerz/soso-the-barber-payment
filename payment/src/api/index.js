@@ -1,4 +1,5 @@
 import axios from "axios";
+import "now-env";
 
 /**
  * An axios base client responsible for the HTTP requests.

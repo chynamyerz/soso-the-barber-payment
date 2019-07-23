@@ -26,4 +26,10 @@ export default {
       username: credentials.email
     });
   },
+
+  galery: async () => {
+    return baseAxiosClient().post("/", {
+      query: "query { gallery{ id }}"
+    })
+  }
 };

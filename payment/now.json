@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "build": {
+    "env": {
+      "REACT_APP_BACKEND_URI": "@react_app_backend_uri"
+    }
+  }
+}
